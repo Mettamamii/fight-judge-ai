@@ -5,15 +5,15 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "build": "node-gyp rebuild"
   },
   "dependencies": {
-    "opencv4nodejs": "^6.0.0",
-    "tensorflow": "^2.8.0",
+    "@tensorflow/tfjs": "^2.8.0",
     "chai": "^4.3.4",
-    "mocha": "^10.0.0"
+    "mocha": "^11.0.1",
+    "opencv4nodejs": "^5.6.0"
   },
-  "devDependencies": {},
   "author": "Your Name",
   "license": "MIT"
 }
