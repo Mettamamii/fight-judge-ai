@@ -1,17 +1,19 @@
 # Fight Judge AI
-This project aims to develop an AI agent for unbiased judging in combat sports. By analyzing fight videos and applying standardized scoring criteria, the AI ensures fair and accurate decisions.
+
+## Description
+AI agent for unbiased judging in combat sports. This project analyzes fight videos, applies scoring algorithms, and provides a real-time judgment of the fight's outcome.
 
 ## Features
-- Video analysis of fight events.
-- Scoring based on strikes, control, and more.
-- Dashboard for real-time fight evaluation.
+- Analyzes video data of fights.
+- Scores fights based on strikes, control time, takedowns, etc.
+- Provides real-time decision-making.
 
-## Technologies
+## Technologies Used
+- Node.js
 - Machine Learning (TensorFlow or PyTorch)
-- Video Processing (OpenCV)
-- Backend (Node.js, Python, or similar)
+- OpenCV (for video processing)
 
-## Roadmap
-- **Month 1**: Collect datasets and define scoring criteria.
-- **Month 2**: Train AI model.
-- **Month 3**: Build and deploy the system.
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fight-judge-ai.git
