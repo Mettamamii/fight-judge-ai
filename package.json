@@ -8,10 +8,10 @@
     "test": "mocha"
   },
   "dependencies": {
-    "opencv4nodejs": "^6.0.0",  // For video processing
-    "tensorflow": "^2.8.0",     // For AI/ML model
-    "chai": "^4.3.4",           // For testing
-    "mocha": "^10.0.0"          // For testing framework
+    "opencv4nodejs": "^6.0.0",
+    "tensorflow": "^2.8.0",
+    "chai": "^4.3.4",
+    "mocha": "^10.0.0"
   },
   "devDependencies": {},
   "author": "Your Name",
