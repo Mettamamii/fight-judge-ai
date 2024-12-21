@@ -1,0 +1,19 @@
+{
+  "name": "fight-judge-ai",
+  "version": "1.0.0",
+  "description": "AI agent for unbiased fight judging",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "opencv4nodejs": "^6.0.0",  // For video processing
+    "tensorflow": "^2.8.0",     // For AI/ML model
+    "chai": "^4.3.4",           // For testing
+    "mocha": "^10.0.0"          // For testing framework
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
